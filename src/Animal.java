@@ -4,11 +4,11 @@ public class Animal {
     private String name;
 
 
-    void walk() {
+    public void walk() {
         System.out.println("Животное идет по земле.");
     }
 
-    void move() {
+    public void move() {
     }
 
     public Animal() {

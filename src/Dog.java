@@ -7,7 +7,7 @@ public class Dog extends Animal {
     }
 
     @Override
-    void move() {
-        System.out.printf("Собака по кличке %s бежит по земле.\n", getName());
+    public void move() {
+        System.out.printf("Собака по кличке %s бежит по земле.\n", super.getName());
     }
 }

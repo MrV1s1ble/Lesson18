@@ -7,7 +7,7 @@ public class Duck extends Animal {
     }
 
     @Override
-    void move() {
-        System.out.printf("Утка по кличке %s летит в облаках.\n", getName());
+    public void move() {
+        System.out.printf("Утка по кличке %s летит в облаках.\n", super.getName());
     }
 }
